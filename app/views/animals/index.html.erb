@@ -1,0 +1,9 @@
+<h1>Animal</h1> 
+
+<% @animals.each do |animal| %>
+  <h2><%= animal.biome.name %></h2>
+  <p> Name: <%= animal.name %></p>
+  <p> Has Legs?: <%= animal.has_legs %></p>
+  <p> Number of Legs: <%= animal.number_of_legs %></p>
+  <p> Warm Blooded?: <%= animal.warm_blooded %></p>
+  <% end %>

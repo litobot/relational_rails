@@ -10,4 +10,5 @@ Rails.application.routes.draw do
 
   get "/biomes", to: "biomes#index"
   get "/biomes/:id", to: "biomes#show"
+  get "/animals", to: "animals#index"
 end

@@ -18,7 +18,6 @@ RSpec.describe "Biomes Index Page", type: :feature do
       # Execution
       visit "/biomes"
 
-
       # Assertion
       expect(page).to have_content("Biome 1")
       expect(page).to have_content("Biome 2")
