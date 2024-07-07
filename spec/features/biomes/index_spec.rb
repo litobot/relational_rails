@@ -12,8 +12,9 @@ RSpec.describe "Biomes Index Page", type: :feature do
   describe "As a visitor - when I visit '/biomes'" do
     it "Then I see the name of each parent record in the system" do
       # Setup
-      biome_1 = Biome.create!(biome_name: "Biome 1")
-      biome_2 = Biome.create!(biome_name: "Biome 2")
+      biome_1 = Biome.create!(name: "Biome 1")
+      biome_2 = Biome.create!(name: "Biome 2")
+      
       # Execution
       visit "/biomes"
 

@@ -4,4 +4,8 @@ class BiomesController < ApplicationController
     # This allows us to see our instances in the View
     @biomes = Biome.all 
   end
+
+  def show
+    @biome = Biome.find(params[:id])
+  end
 end
