@@ -7,3 +7,6 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+
+biome_1 = Biome.create!(biome_name: "Biome 1")
+biome_2 = Biome.create!(biome_name: "Biome 2")

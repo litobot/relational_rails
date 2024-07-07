@@ -69,9 +69,9 @@ gem "capybara"
 gem "orderly"
 gem "launchy"
 gem "simplecov"
-gem "shoulda-matchers"
-gem "factory_bot_rails"
-gem "faker"
+gem "shoulda-matchers", '~> 6.0'
+# gem "factory_bot_rails"
+# gem "faker"
 end
 
 
