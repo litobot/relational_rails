@@ -8,5 +8,7 @@
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
 
-biome_1 = Biome.create!(biome_name: "Biome 1")
-biome_2 = Biome.create!(biome_name: "Biome 2")
+
+biome_1 = Biome.create!(name: "Desert", percentage_of_earth: 33, plentiful_rain: false)
+biome_2 = Biome.create!(name: "Ocean", percentage_of_earth: 70.5, plentiful_rain: true)
+      

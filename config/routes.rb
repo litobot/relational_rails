@@ -9,5 +9,5 @@ Rails.application.routes.draw do
   # root "posts#index"
 
   get "/biomes", to: "biomes#index"
-  
+  get "/biomes/:id", to: "biomes#show"
 end
