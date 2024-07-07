@@ -2,10 +2,10 @@ require "rails_helper"
 
 # User Story 1, Parent Index
 
-# For each parent table
+# For each parent (biome) table
 # As a visitor
-# When I visit '/parents'
-# Then I see the name of each parent record in the system
+# When I visit '/biomes'
+# Then I see the name of each biome record in the system
 
 
 RSpec.describe "Biomes Index Page", type: :feature do
