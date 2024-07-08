@@ -11,4 +11,7 @@
 
 biome_1 = Biome.create!(name: "Desert", percentage_of_earth: 33, plentiful_rain: false)
 biome_2 = Biome.create!(name: "Ocean", percentage_of_earth: 70.5, plentiful_rain: true)
-      
+
+
+animal_1 = Animal.create!(biome: biome_1, name: "Rattleshake", has_legs: false, number_of_legs: 0, warm_blooded: false)
+animal_2 = Animal.create!(biome: biome_2, name: "Sea Otter", has_legs: true, number_of_legs: 4, warm_blooded: true)
