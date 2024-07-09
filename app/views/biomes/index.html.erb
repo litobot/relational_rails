@@ -1,5 +1,4 @@
 <h1>Biomes</h1> 
-# Paragraph tags (<p>) put each instance of Biome on their own line
 <% @biomes.each do |biome| %>
-  <p><%= biome.name %></p>
-  <% end %>
+  <p><%= biome.name %>, created at: <%= biome.created_at.strftime("%B %d, %Y %H:%M") %></p>
+<% end %>

@@ -7,7 +7,7 @@ require "rails_helper"
 # Then I see the parent with that id including the parent's attributes
 # (data from each column that is on the parent table)
 
-RSpec.describe "Biomes Show Page", type: :feature do
+RSpec.describe "User Story #2 - Biomes Show Page", type: :feature do
   describe "When I visit 'biomes/:id" do
     it "Then I see the biome with that id including the biome's attributes" do
       # Setup
