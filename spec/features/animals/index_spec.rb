@@ -1,5 +1,3 @@
-require "rails_helper"
-
 # User Story 3, Child Index 
 
 # As a visitor
@@ -7,9 +5,12 @@ require "rails_helper"
 # Then I see each Child in the system including the Child's attributes
 # (data from each column that is on the child table)
 
+require "rails_helper"
+
 RSpec.describe "Animals Index Page", type: :feature do
   describe "As a visitor - when I visit '/animals'" do
     it "Then I see an Animal in the system including the Animal's attributes" do
+      
       # Setup
       biome_1 = Biome.create!(name: "Desert", percentage_of_earth: 33, plentiful_rain: false)
       biome_2 = Biome.create!(name: "Ocean", percentage_of_earth: 70.5, plentiful_rain: true)
