@@ -18,7 +18,7 @@ RSpec.describe "Animals Show Page", type: :feature do
 
       # Execution
       visit "/animals/#{animal_1.id}"
-      # save_and_open_page
+      save_and_open_page
 
       # Assertion
       expect(page).to have_content("Name: #{animal_1.name}")

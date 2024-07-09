@@ -8,6 +8,8 @@
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
 
+# Do destroy command for Biomes
+# Do destroy command for Animals
 
 biome_1 = Biome.create!(name: "Desert", percentage_of_earth: 33, plentiful_rain: false)
 biome_2 = Biome.create!(name: "Ocean", percentage_of_earth: 70.5, plentiful_rain: true)
