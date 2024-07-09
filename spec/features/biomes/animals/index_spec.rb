@@ -21,7 +21,8 @@ RSpec.describe "Biomes's Animal Index", type: :feature do
       save_and_open_page
 
       # Assertion
-      expect(page).to have_content("Name: #{rattlesnake.name}")
+                                  # Having "Name:" here tests to see if that string is on the page
+      expect(page).to have_content("Name: #{rattlesnake.name}") # The interpolation checks to make sure the word "rattlesnake" is on the page
       expect(page).to have_content("Has Legs?: #{rattlesnake.has_legs}")
       expect(page).to have_content("Number of Legs: #{rattlesnake.number_of_legs}")
       expect(page).to have_content("Warm Blooded?: #{rattlesnake.warm_blooded}")

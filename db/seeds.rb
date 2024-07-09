@@ -12,7 +12,8 @@
 # Do destroy command for Animals
 
 biome_1 = Biome.create!(name: "Desert", percentage_of_earth: 33, plentiful_rain: false)
-biome_2 = Biome.create!(name: "Ocean", percentage_of_earth: 70.5, plentiful_rain: true)
+biome_2 = Biome.create!(name: "Ocean", percentage_of_earth: 70.5, plentiful_rain: true, created_at: 1.minutes.ago)
+biome_3 = Biome.create!(name: "Jungle", percentage_of_earth: 12, plentiful_rain: true, created_at: 2.minutes.ago) # Google that shiat
 
 
 animal_1 = Animal.create!(biome: biome_1, name: "Rattleshake", has_legs: false, number_of_legs: 0, warm_blooded: false)
